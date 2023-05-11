@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: john;
+    src: url('./john.ttf');
+}
+
+div { background-color: coral;} /* element rule * 1 */
+.block {
+    color:blue;
+}  /* class rule
+ * 100 */
+#logindiv {
+   
+    border:100px solid navy;
+}  /* id rule * 1000 */
+
+body { font-family: john;}
+
+div[john="35"] { background-color: aliceblue;}
+
+div:hover { background-color: black;}
+
+body { background-color: green;}
+#menu { position: absolute; top:0xp;right:0px;width:200px;background-color:yellow;height:100%;}
+
+@media screen and (max-width:600px) {
+    body { background-color: red;}
+    #menu { position: absolute; top:0xp;left:0px;width:100%;background-color:yellow;height:40px;}
+
+}
+
+.hidden { display: none;}
+.red { color:red}

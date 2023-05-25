@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input:valid  + span { display:none}
+        input:invalid  + span { display:inline}
+        input:checked { outline:25px solid red}
+        .error { color:red }
+    </style>
+    <form method="GET" enctype="multipart/form-data">
+        <input type="text" name="naam" value="" placeholder="naam" required pattern="[A-Za-z]{3}"/><span class="error">FOUT!!</span>
+
+        <input type="" name="kleur" value="" />
+        <input type="password" name="achternaam" value="" required/>
+        <input type="checkbox" name="geslacht" value="man"  />
+        <input type="checkbox" name="geslacht"  value="vrouw" />
+        <input type="checkbox" name="geslacht" value="pinguin"  />
+        <input type="checkbox" name="geslacht"  value="hond" />
+        <textarea name="comment"> weorjweopjeopwrewkp </textarea>
+        <select name="letter">
+            <option value="1">A</option>
+            <option>B</option>
+            <optgroup label="meer letters">
+                <option>C</option>
+                <option>D</option>
+            </optgroup>
+            
+        </select>
+        <input type="file" dir  name="file" />
+        <input type="submit" value="Sla  op" />
+    </form>
+</body>
+</html>

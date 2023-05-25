@@ -7,10 +7,9 @@
 div { background-color: coral;} /* element rule * 1 */
 .block {
     color:blue;
-}  /* class rule
- * 100 */
+}  /* class rule 100 */
+
 #logindiv {
-   
     border:100px solid navy;
 }  /* id rule * 1000 */
 

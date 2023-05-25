@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html, body { height:100%; box-sizing: border-box; margin: 0px;}
+        #container { display:flex; flex-flow:column;height:100%}
+        .block { margin:5px;background-color: coral;float:left}
+        .flex { flex:1}
+        .width-50 { width:150px}
+        .rowcontainer { display:flex;justify-content: flex-start;}
+        .plaatje { margin:5px;width:50px;height:50px;background-color: red;}
+    </style>
+    <div id="container">
+        <div class="block width-50"> Choose the version of your product</div>
+        <div class="block width-50"> Color: Black</div>
+        <div class="rowcontainer">
+            <div class="plaatje">plaatje</div>
+            <div class="plaatje">plaatje</div>
+            <div class="plaatje">plaatje</div>
+            <div class="plaatje">plaatje</div>
+        </div>
+        <div class="rowcontainer">
+            <div class="block width-50"> Total storage capacity </div><div>(I)</div>
+        </div>
+       
+    </div>
+</body>
+</html>
